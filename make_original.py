@@ -20,7 +20,7 @@ def mkdir_split():
 def get_iou(box1, box2):
     x1_min = box1[0] - box1[2] / 2
     y1_min = box1[1] - box1[3] / 2
-    x1_max = box1[0] + box1[2] / 2
+    x1_max = box1[0] + box1[2] / 2 
     y1_max = box1[1] + box1[3] / 2
 
     x2_min = box2[0] - box2[2] / 2
